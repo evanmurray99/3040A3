@@ -31,10 +31,15 @@ same resource. In this case, you describe both the general resource
 and the individual endpoints.
 `<br>
 
+> Get basic resource
 ```
 GET /resource_base/parameter1/parameter2
 ```
-> Get basic resource
+
+> Get basic resource as a list
+```
+GET /resource_base/parameter3/
+```
 
 
 
