@@ -7,7 +7,7 @@ pellentesque, gravida condimentum neque bibendum.
 
 ---
 
-## Resource(s)
+# Resource(s)
 `
 The resource description is brief (1-3 sentences) and usually starts with
 a verb. Resources usually have various endpoints to access the resource and
@@ -23,7 +23,7 @@ pellentesque, gravida condimentum neque bibendum. Mauris ut orci ultricies,
 consequat neque ut, dignissim ex. Duis vitae sem efficitur, blandit arcu nec,
 vestibulum nulla. Morbi sed sem ligula.
 
-## Resource(s) Endpoints
+# Resource(s) Endpoints
 
 `
 Typically, an API will have a number of endpoints grouped under the
@@ -35,11 +35,40 @@ and the individual endpoints.
 
 | Endpoint Type | Endpoint | Description |
 | ----------- | ----------- | ----------- |
-| GET | /resource_base/parameter1/parameter2 | Get basic resource |
-| GET | /resource_base/parameter3/ | Get basic resource as a list |
+| GET | /resource_base/{data_type}/ | Get basic resource |
+| GET | /resource_base/section/ | Get basic resource from specific section |
 
-### GET /resource_base/parameter1/parameter2
-> https://api.ourapi.com/v1//resource_base/parameter1/parameter2
+## GET /resource_base/{data_type}/?access_token=ACCESS-TOKEN
+` https://api.ourapi.com/v1//resource_base/section_a/section_b `
+Get basic resource
+
+### Requirements
+**ACCESS_TOKEN**
+> A valid access token.
+
+### Parameters
+**data_type**
+The required data type to be returned.
+
+Choose from either:
+- type1
+- type2
+
+**section**
+The section of data to be queried.
+
+## GET /resource_base/{data_type}/?access_token=ACCESS-TOKEN
+` https://api.ourapi.com/v1//resource_base/section_a/section_b `
+Get basic resource
+
+**ACCESS_TOKEN**
+> A valid access token.
+
+### Parameters
+Choose from either:
+- section1
+- section2
+
 
 
 
