@@ -32,10 +32,10 @@ and the individual endpoints.
 `<br>
 
 ```
-**GET**
+GET /resource_base/parameter1/parameter2
 ```
 
-> blockquote
+
 
 
 ---
