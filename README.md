@@ -42,10 +42,10 @@ GET /resource_base/parameter3/
 ```
 
 
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+| Endpoint Type | Endpoint | Description |
+| ----------- | ----------- | ----------- |
+| GET | /resource_base/parameter1/parameter2 | Get basic resource |
+| GET | /resource_base/parameter3/ | Get basic resource as a list |
 
 
 ---
