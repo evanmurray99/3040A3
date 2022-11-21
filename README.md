@@ -13,10 +13,8 @@ The resource description is brief (1-3 sentences) and usually starts with
 a verb. Resources usually have various endpoints to access the resource and
 multiple methods for each endpoint. On the same page, you usually have a
 general resource described along with a number of endpoints for accessing
-the resource, also described.
-
-Also, ensure that the description is formatted as JSON
-` <br>
+the resource, also described. Also, ensure that the description is
+formatted as JSON`<br>
 
 Consectetur adipiscing elit.
 Fusce non lacus blandit, porta nunc nec, malesuada leo. Quisque eleifend
