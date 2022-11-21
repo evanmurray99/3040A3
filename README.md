@@ -34,7 +34,7 @@ and the individual endpoints.
 ```
 GET /resource_base/parameter1/parameter2
 ```
-
+> Get basic resource
 
 
 
