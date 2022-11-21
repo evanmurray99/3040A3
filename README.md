@@ -31,5 +31,9 @@ same resource. In this case, you describe both the general resource
 and the individual endpoints.
 `<br>
 
+```
+**GET**
+```
+
 
 ---
