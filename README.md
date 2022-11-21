@@ -35,5 +35,8 @@ and the individual endpoints.
 **GET**
 ```
 
+term
+: definition
+
 
 ---
