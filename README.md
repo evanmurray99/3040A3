@@ -1,13 +1,9 @@
 # Title of API
-```
-This text goes over the topic of API
-```
+`This text goes over the topic of API`
 Consectetur adipiscing elit.
 Fusce non lacus blandit, porta nunc nec, malesuada leo. Quisque eleifend
 augue arcu, non malesuada ipsum rhoncus id. In blandit sapien eu nisl
-pellentesque, gravida condimentum neque bibendum. Mauris ut orci ultricies,
-consequat neque ut, dignissim ex. Duis vitae sem efficitur, blandit arcu nec,
-vestibulum nulla. Morbi sed sem ligula.
+pellentesque, gravida condimentum neque bibendum.
 
 ---
 
@@ -19,6 +15,14 @@ multiple methods for each endpoint. On the same page, you usually have a
 general resource described along with a number of endpoints for accessing
 the resource, also described.
 ```
+
+Consectetur adipiscing elit.
+Fusce non lacus blandit, porta nunc nec, malesuada leo. Quisque eleifend
+augue arcu, non malesuada ipsum rhoncus id. In blandit sapien eu nisl
+pellentesque, gravida condimentum neque bibendum. Mauris ut orci ultricies,
+consequat neque ut, dignissim ex. Duis vitae sem efficitur, blandit arcu nec,
+vestibulum nulla. Morbi sed sem ligula.
+
 ## Endpoints
 
 ```
