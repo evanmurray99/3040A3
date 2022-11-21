@@ -38,6 +38,8 @@ and the individual endpoints.
 | GET | /resource_base/parameter1/parameter2 | Get basic resource |
 | GET | /resource_base/parameter3/ | Get basic resource as a list |
 
+### GET /resource_base/parameter1/parameter2
+> https://api.ourapi.com/v1//resource_base/parameter1/parameter2
 
 
 
