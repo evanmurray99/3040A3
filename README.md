@@ -36,7 +36,7 @@ and the individual endpoints.
 | Endpoint Type | Endpoint | Description |
 | ----------- | ----------- | ----------- |
 | GET | /resource_base/{data_type}/ | Get basic resource |
-| GET | /resource_base/section/ | Get basic resource from specific section |
+| GET | /resource_base/{section}/{data_type} | Get basic resource from specific section |
 
 ## GET /resource_base/{data_type}/?access_token=ACCESS-TOKEN
 ` https://api.ourapi.com/v1//resource_base/section_a/section_b `
@@ -54,10 +54,8 @@ Choose from either:
 - type1
 - type2
 
-**section**
-The section of data to be queried.
 
-## GET /resource_base/{data_type}/?access_token=ACCESS-TOKEN
+## GET /resource_base/{section}/{data_type}/?access_token=ACCESS-TOKEN
 ` https://api.ourapi.com/v1//resource_base/section_a/section_b `
 Get basic resource
 
@@ -65,9 +63,19 @@ Get basic resource
 > A valid access token.
 
 ### Parameters
+**section**
+The section of data to be queried.
+
 Choose from either:
 - section1
 - section2
+
+**data_type**
+The required data type to be returned.
+
+Choose from either:
+- type1
+- type2
 
 
 
