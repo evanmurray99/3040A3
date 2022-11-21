@@ -42,5 +42,10 @@ GET /resource_base/parameter3/
 ```
 
 
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
 
 ---
