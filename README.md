@@ -1,5 +1,5 @@
 # Title of API
-`This text goes over the topic of API`
+`This text goes over the topic of API` <br>
 Consectetur adipiscing elit.
 Fusce non lacus blandit, porta nunc nec, malesuada leo. Quisque eleifend
 augue arcu, non malesuada ipsum rhoncus id. In blandit sapien eu nisl
