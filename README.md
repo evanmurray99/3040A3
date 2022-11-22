@@ -39,7 +39,7 @@ and the individual endpoints.
 | GET | /resource_base/{section}/{data_type} | Get basic resource from specific section |
 
 ## GET /resource_base/{data_type}/?access_token=ACCESS-TOKEN
-` https://api.ourapi.com/v1/resource_base/{data_type}/?access_token=ACCESS-TOKEN `<br>
+` https://api.ourapi.com/v1/resource_base/{data_type}/?access_token=ACCESS-TOKEN `<br><br>
 Get basic resource.
 
 ### Requirements
@@ -54,9 +54,33 @@ Choose from either:
 - type1
 - type2
 
+### Example: Request and Response
+```
+https://api.ourapi.com/v1/resource_base/type1/?access_token=ACCESS-TOKEN
+```
+<br>
+
+```
+[
+    {
+      "employee": {
+      "name": "Stewart",
+      "ID": 3.14159
+      }
+    },
+    {
+      "employee": {
+      "name": "Jerome",
+      "ID": 2.71828
+      }
+    }
+]
+```
+
+
 
 ## GET /resource_base/{section}/{data_type}/?access_token=ACCESS-TOKEN
-` https://api.ourapi.com/v1/resource_base/{section}/{data_type}/?access_token=ACCESS-TOKEN `<br>
+` https://api.ourapi.com/v1/resource_base/{section}/{data_type}/?access_token=ACCESS-TOKEN `<br><br>
 Get basic resource from a specific section.
 
 **ACCESS_TOKEN**
