@@ -101,6 +101,28 @@ Choose from either:
 - type1
 - type2
 
+### Example: Request and Response
+```
+https://api.ourapi.com/v1/resource_base/section1/type1/?access_token=ACCESS-TOKEN
+```
+<br>
+
+```
+[
+    {
+      "employee": {
+      "name": "Stewart",
+      "ID": 3.14159
+      }
+    },
+    {
+      "employee": {
+      "name": "Jerome",
+      "ID": 2.71828
+      }
+    }
+]
+```
 
 
 
